@@ -20,11 +20,9 @@ body {
 }
 
 .story {
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin: 5% 5% 0 5%;
     background-color: rgb(225, 225, 225);
+    padding: 10%;
 }
 
 .story .command {
