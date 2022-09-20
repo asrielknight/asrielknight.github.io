@@ -17,10 +17,17 @@ body {
     align-itmes: center;
     justify-content: center;
     margin: 0 auto;
-    height: 100vh;
 }
 
 .story {
     padding: 30%;
     background-color: rgb(225, 225, 225);
+}
+
+.story .command {
+    text-align: center;
+}
+
+.story .story-text {
+    text-align: center;
 }
