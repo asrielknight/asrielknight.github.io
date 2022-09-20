@@ -4,3 +4,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+html {
+    font-family: fontstuckregular;
+    height: 100%;
+    margin: 50;
+    background-color: rgb(255, 249, 219);
+}
