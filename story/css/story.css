@@ -9,7 +9,7 @@ html {
     font-family: 'Courier New';
     height: 100%;
     margin: 0;
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(61, 61, 61);
 }
 
 body {
@@ -19,16 +19,24 @@ body {
     margin: 0 auto;
 }
 
-.story {
+.story-box {
     margin: 5% 5% 0 5%;
-    background-color: rgb(225, 225, 225);
-    padding: 10%;
+    background-color: rgb(128, 128, 128);
+    padding: 2%;
+    width: 75%;
+    height: 75%;
 }
 
-.story .command {
+.story-box .story {
+    margin: 0 3% 0 3%;
+    background-color: rgb(230, 230, 230);
+    padding: 2%;
+}
+
+.story-box .story .command {
     text-align: center;
 }
 
-.story .story-text {
+.story-box .story .story-text {
     text-align: center;
 }
