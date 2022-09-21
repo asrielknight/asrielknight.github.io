@@ -32,13 +32,13 @@ img {
     padding: 2%;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 1080px), only screen and (min-device-width: 1080px) and (max-width: 1000px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1230px), only screen and (min-device-width: 1230px) and (max-width: 1000px) {
     .story-box {
         width: 80vw;
     }
 }
 
-@media only screen and (min-device-width: 1080px) and (min-width: 1000px) {
+@media only screen and (min-device-width: 1230px) and (min-width: 1000px) {
     .story-box { width: 45vw; }
 }
 
