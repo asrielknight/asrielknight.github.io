@@ -36,10 +36,12 @@ img {
     .story-box {
         width: 80vw;
     }
+    .story-box .story .toggle { font-size: 2.2vw; }
 }
 
 @media only screen and (min-device-width: 1290px) and (min-width: 1000px) {
     .story-box { width: 45vw; }
+    .story-box .story .toggle { font-size: .75vw; }
 }
 
 .story-box .story {
@@ -59,4 +61,71 @@ img {
 .story-box .story .story-text {
     padding: 3% 4% 0 4%;
     text-align: center;
+}
+
+.story-box .story .toggle {
+    display: flex;
+    text-align: center;
+    background-color: #7289DA;
+    color: white;
+    border: 2px solid #7289DA;
+    border-radius: 8px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    max-width: 25%;
+    padding: 5px 9px;
+}
+
+.story-box .story .toggle:hover {
+    background-color: white;
+    color: black;
+}
+
+.story-box .story .chatlog-full {
+    border-style: dashed;
+    border-width: thin;
+}
+
+.story-box .story .chatlog-full .chatlog {
+    padding: 2%;
+}
+
+.story-box .story .chatlog-full .chatlog .server {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.story-box .story .chatlog-full .chatlog .server span {
+    float: left;
+}
+
+.story-box .story .chatlog-full .chatlog .comm-title {
+    background-image: linear-gradient(to right, #fd536a, #eca846);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bedge {
+    content: url("https://cdn.frankerfacez.com/emoticon/613226/4");
+    max-width: 2.5%;
+}
+
+.nox {
+    content: url("https://cdn.discordapp.com/emojis/604416517919998019.webp");
+    max-width: 2.5%;
+}
+
+.community {
+    content: url("https://cdn.discordapp.com/icons/529042068891238431/a_380556c5168e5ab5e7a08fcdb854342b.webp");
+    max-width: 5%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
